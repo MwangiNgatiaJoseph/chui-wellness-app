@@ -31,5 +31,25 @@
         android:layout_margin="30dp"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meditation this is one of the major role in maintaining a healthy body.So remember
+to always stay relaxed and let the body do it`s thing.Seat still breath and just let it go"
+        android:textAlignment="center"
+        android:textColor="#FFFCFC"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relax!"
+        android:layout_margin="30dp"
+        android:textSize="30dp"
+        android:backgroundTint="#1FC8C8"
+        />
+
+
 
 </LinearLayout>

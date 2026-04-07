@@ -4,18 +4,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:orientation="vertical"
     android:backgroundTint="#07689f"
     android:background="#0440f0"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HealthyRecipe">
-
+    tools:context=".WeeklyGoals">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Healthy Recipe"
+        android:text="Weeekly Goals"
         android:textSize="30dp"
         android:textAlignment="center"
         android:layout_marginTop="20dp"
@@ -27,34 +26,28 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:src="@drawable/image5"
+        android:src="@drawable/main2"
         android:scaleType="centerCrop"
         android:layout_margin="30dp"
         />
 
-
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="156dp"
-        android:fontFamily="sans-serif-condensed-light"
-        android:text="Being healthy starts with how a person eats.A well balanced diet is advice to
-be able to maintain a good and perfectly healthy body.Our dear user please watch on whatever you are eating,
-Say NO to JUNK foods which always end up ruining your body.Eat healthy stay and keep healthy."
-        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="What do you aim to archive in a specific week ,here we are able to track yuor
+weekly goals and show them to you ,and this goals only pertain healthy wise."
         android:textColor="#FFFCFC"
         android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textAlignment="center"
         />
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Eat safely!!"
+        android:text="My goals!!"
         android:layout_margin="30dp"
         android:textSize="30dp"
         android:backgroundTint="#1FC8C8"
         />
-
-
-
 
 </LinearLayout>
