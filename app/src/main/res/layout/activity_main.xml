@@ -38,7 +38,21 @@
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/image2" />
+            android:src="@drawable/image2"
+
+            />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+
+
+
 
         <Button
             android:id="@+id/recipes"
@@ -118,33 +132,8 @@
             android:textSize="30dp"
             android:backgroundTint="#1FC8C8"
             />
-        <Button
-            android:id="@+id/exercise"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="30dp"
-            android:text="Exercise"
-            android:textSize="30dp"
-            android:backgroundTint="#1FC8C8"
-            />
-        <Button
-            android:id="@+id/motivation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="30dp"
-            android:text="Daily Motivation"
-            android:textSize="30dp"
-            android:backgroundTint="#1FC8C8"
-            />
-        <Button
-            android:id="@+id/hydration"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="30dp"
-            android:text="Hydration"
-            android:textSize="30dp"
-            android:backgroundTint="#1FC8C8"
-            />
+
+
 
 
 

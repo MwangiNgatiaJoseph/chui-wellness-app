@@ -31,4 +31,18 @@
         android:layout_margin="30dp"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Keep your body on check ,regular exercising is vary much advice by doctors.
+A healthy body is what everybody wants? So regular exersice like
+1:Running,
+2:Pushups,
+3:Jogging ,e.t.c.
+All this are simple but yet efficient exercises to do and ensure your body is fit."
+        android:textAlignment="center"
+        android:textColor="#FFFCFC"
+        android:textSize="20dp" />
+
 </LinearLayout>
